@@ -41,7 +41,7 @@ function draw(x, y) {
   if (!isDrag) {
     return;
   }
-  context.lineWidth = 5;
+  context.lineWidth = 1;
   context.lineTo(x, y);
   context.stroke();
 }
